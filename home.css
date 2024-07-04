@@ -22,7 +22,7 @@ body{
     display: flex;
     position:relative;
     border-radius: 20px;
-    border: 2px solid rgba(255, 255, 255, 0.7);
+    border: 2px solid rgba(75, 72, 72, 0.203);
     backdrop-filter: blur(20px);
     box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.25);
 }
@@ -46,6 +46,7 @@ ul li a{
     font-size: 25px;
     cursor: pointer;
     color: #040404;
+    text-decoration: none;
 }
 ul li a:hover{
     color: #173ac3;

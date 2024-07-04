@@ -56,6 +56,9 @@ body{
     text-decoration: underline;
    color: #6474f3;
 }
+.btn:hover{
+    opacity: 0.85;
+}
 .form-box{
     position: absolute;
     transform: translateX(-50%);
@@ -106,6 +109,18 @@ body{
     color: #fff;
     font-size: 28px;
     font-weight: 600;
+}
+.forget{
+    display: flex;
+    justify-content: right;
+    gap: 5px;
+}
+.forget a{
+    color: #fff;
+    text-decoration: none;
+}
+.forget a:hover{
+    text-decoration: underline;
 }
 .submit-btn{
     display: flex;
