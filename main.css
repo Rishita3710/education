@@ -1,0 +1,60 @@
+body{
+    background-image: linear-gradient(to bottom, rgba(185, 99, 243, 0.92) 0%, rgba(185, 99, 243, 0.92) 40%, rgb(9, 9, 86) 40%, rgb(9, 9, 86) 100%);
+    height: 100vh;
+}
+.navbar{
+    background: rgba(216, 172, 245, 0.92);
+    width: 90%;
+    height: 60px;
+    margin: 0 auto;
+    z-index: 1030;
+    position: fixed;
+    transition: 0.2s;
+    display: flex;
+}
+.title{
+    padding-left: 40px;
+}
+.container-fluid {
+    padding: 0;
+  }
+  
+  .navbar-brand {
+    margin-right: 1rem;
+  }
+  
+  .navbar-nav {
+    flex-direction: row;
+  }
+  
+  .navbar-nav .nav-item {
+    margin-left: 1rem;
+  }
+  
+/* Profile Picture */
+.profile-pic{
+    display: inline-block;
+    vertical-align: middle;
+     width: 50px;
+     height: 50px;
+     overflow: hidden;
+    border-radius: 50%;
+ }
+ 
+ .profile-pic img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+ }
+ .profile-menu .dropdown-menu {
+   right: 0;
+   left: unset;
+ }
+ .profile-menu .fa-fw {
+   margin-right: 10px;
+ }
+ 
+ .toggle-change::after {
+   border-top: 0;
+   border-bottom: 0.3em solid;
+ }
