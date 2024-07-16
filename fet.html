@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="fet.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="main.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -26,7 +26,7 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
   </head>
-  <body>
+  <body style="background-color: rgba(185, 99, 243, 0.92)">
     <nav
       class="navbar navbar-expand-lg navbar-dark bg-l shadow-lg p-3 mb-5 rounded"
     >
@@ -90,87 +90,5 @@
         </div>
       </div>
     </nav>
-
-    <main>
-      <div class="image-container">
-        <div class="conatiners containers1">
-          <img src="images/bg1.avif" alt="" />
-        </div>
-        <div class="conatiners containers2">
-          <img src="images/bg2.jpg" alt="" />
-        </div>
-        <div class="conatiners containers1">
-          <img src="images/bg3.webp" alt="" />
-        </div>
-        <div class="conatiners containers2">
-          <img src="images/bg4.webp" alt="" />
-        </div>
-      </div>
-
-      <div class="departments">
-        <div class="dep-containers">
-          <div class="img-logo">
-            <img src="images/fet.png" alt="" />
-          </div>
-          <div class="basic-info">
-            <h2 class="main-title">FET</h2>
-            <p>Dr. Mamta Dahiya, Dr. Tapas Kumar, Dr. Brijesh Kumar....</p>
-            <div class="btn-more">
-              <button>More</button>
-            </div>
-          </div>
-        </div>
-        <div class="dep-containers">
-          <div class="img-logo">
-            <img src="images/biotech.png" alt="" />
-          </div>
-          <div class="basic-info">
-            <h2 class="main-title">BioTech</h2>
-            <p>Dr. Abhilasha, Dr. Jayant Maini, Dr. Vineeta Sharma....</p>
-            <div class="btn-more">
-              <button>More</button>
-            </div>
-          </div>
-        </div>
-        <div class="dep-containers">
-          <div class="img-logo">
-            <img src="images/civil.png" alt="" />
-          </div>
-          <div class="basic-info">
-            <h2 class="main-title">Civil</h2>
-            <p>Dr. Sadiqa Abbas, Dr. Ashish Shukla, Dr. Lilesh Gautam....</p>
-            <div class="btn-more">
-              <button>More</button>
-            </div>
-          </div>
-        </div>
-        <div class="dep-containers">
-          <div class="img-logo">
-            <img src="images/law.png" alt="" />
-          </div>
-          <div class="basic-info">
-            <h2 class="main-title">Law</h2>
-            <p>Dr. Mamta Dahiya, Dr. Tapas Kumar, Dr. Brijesh Kumar....</p>
-            <div class="btn-more">
-              <button>More</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-
-    <script>
-      document.querySelectorAll(".dropdown-toggle").forEach((item) => {
-        item.addEventListener("click", (event) => {
-          if (event.target.classList.contains("dropdown-toggle")) {
-            event.target.classList.toggle("toggle-change");
-          } else if (
-            event.target.parentElement.classList.contains("dropdown-toggle")
-          ) {
-            event.target.parentElement.classList.toggle("toggle-change");
-          }
-        });
-      });
-    </script>
   </body>
 </html>
